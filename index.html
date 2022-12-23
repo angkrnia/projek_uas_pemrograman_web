@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Angga Kurnia - 201011401198">
+  <meta name="description" content="Website Indonesian Tourism adalah projek tugas UAS pemrograman WEB 1">
+  <title>Indonesia Tourism</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- Favicon image -->
+  <link rel="shortcut icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/c/cd/Logo_Pesona_Indonesia_%28Kementerian_Pariwisata%29.png"
+    type="image/x-icon" />
+  <!-- Icon Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <!-- loader -->
+  <div class="loader">
+    <img src="./images/loader.gif" style="width: 150px;">
+  </div>
+  <!-- end loader -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <img class="logo-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Logo_Pesona_Indonesia_%28Kementerian_Pariwisata%29.png"
+          width="150" alt="" />
+        <div id="menu" onclick="toggleMenu()">
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+      <ul class="nav-list">
+        <li><a class="nav-item" href="#">Home</a></li>
+        <li><a class="nav-item" href="#destinations">See & Do</a></li>
+        <li><a class="nav-item" href="#cultures">Culture</a></li>
+        <li><a class="nav-item" href="#hotels">Stay</a></li>
+        <li><a class="nav-item" href="booking.html">Plan Your Trip</a></li>
+        <li><a class="nav-item" href="#contact">Contact US</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="swiper mySwiper">
+    <div class="welcome">
+      <h2>BE THE PART OF THIS WONDERFUL JOURNEY</h2>
+      <h1>Incredible Indonesia!</h1>
+      <a href="#explore" class="btn-explore">Explore</a>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./images/slide1.png" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/slide2.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/slide3.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/slide4.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/slide5.jpg" alt="" />
+      </div>
+    </div>
+    <div style="z-index: 99">
+      <div class="swiper-button-next white"></div>
+      <div class="swiper-button-prev white"></div>
+      <div class="swiper-pagination white"></div>
+    </div>
+  </section>
+  <section class="container" id="explore">
+    <div class="title-section">
+      <h1 class="fs-2">
+        Exotic Place
+      </h1>
+      <span>This place amazes with its fabulous atmosphere and nature</span>
+    </div>
+    <div class="row" >
+      <div class="card">
+        <img class="card-img" src="./images/slide3.jpg" alt="">
+        <div class="card-caption">
+          <h1>Bromo Mountain</h1>
+          <small>The Bromo, or Mount Bromo 7,641 ft it is not the highest peak of the massif, but the most famous. The area is one of the most visited tourist destinations in East Java, and the volcano is included in the Bromo Tengger Semeru National Park.</small>
+          <a class="link-white" href="https://en.wikipedia.org/wiki/Mount_Bromo">Learn more...</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="./images/slide4.jpg" alt="">
+        <div class="card-caption">
+          <h1>Borobudur Temple</h1>
+          <small>Borobudur, also transcribed Barabudur is a 9th-century Mahayana Buddhist temple in Magelang Regency. It is the world's largest Buddhist temple. The temple consists of nine stacked platforms, six square and three circular, topped by a central dome.</small>
+          <a class="link-white" href="https://whc.unesco.org/en/list/592/">Learn more...</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="./images/bali.jpg" alt="">
+        <div class="card-caption">
+          <h1>Bali Island</h1>
+          <small>Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast.</small>
+          <a class="link-white" href="https://whc.unesco.org/en/list/592/">Learn more...</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="destinations">
+    <div class="title-section text-white">
+      <h1 class="fs-2">
+        You'll fall in love with
+        <span style="display: block">INDONESIA</span>
+      </h1>
+      <i class="desc">Explore Indonesia from Sabang to Merauke
+      </i>
+    </div>
+    <div class="row" id="culture">
+      <div class="card-culture">
+        <img src="./images/tumpaksewu.jpg" alt="" class="culture-img">
+        <div class="culture-caption">
+          <h1>Tumpak Sewu Waterfall</h1>
+          <small>Tumpak Sewu Waterfall is a tiered waterfall that is located between the Pronojiwo District, Lumajang Regency.</small>
+          <a href="https://en.wikipedia.org/wiki/Tumpak_Sewu_Waterfalls">Learn more...</a>
+        </div>
+      </div>
+      <div class="card-culture">
+        <img src="./images/comodo_island.jpg" alt="" class="culture-img">
+        <div class="culture-caption">
+          <h1>Komodo Island</h1>
+          <small>Komodo Island is an island located in the Nusa Tenggara Islands, which is separated by the Sape Strait.</small>
+          <a href="https://ich.unesco.org/en/USL/saman-dance-00509">Learn more...</a>
+        </div>
+      </div>
+      <div class="card-culture">
+        <img src="./images/monas.jpg" alt="" class="culture-img">
+        <div class="culture-caption">
+          <h1>National Monument</h1>
+          <small>National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta. </small>
+          <a href="https://en.wikipedia.org/wiki/National_Monument_(Indonesia)">Learn more...</a>
+        </div>
+      </div>
+      <div class="card-culture">
+        <img src="./images/waerebo.jpg" alt="" class="culture-img">
+        <div class="culture-caption">
+          <h1>Waerebo Village</h1>
+          <small>The traditional village of Wae Rebo in the district of Manggarai on the island of Flores, East Nusatenggara.</small>
+          <a href="https://en.wikivoyage.org/wiki/Wae_Rebo">Learn more...</a>
+        </div>
+      </div>
+      <div class="card-culture">
+        <img src="./images/jayawijaya.jpg" alt="" class="culture-img">
+        <div class="culture-caption">
+          <h1>Jayawijaya Mountain</h1>
+          <small>The Jayawiya Mountain is a mountain range east of Maoke in the central highlands region of the Indonesian.</small>
+          <a href="https://en.wikipedia.org/wiki/Jayawijaya_Mountains">Learn more...</a>
+        </div>
+      </div>
+      <div class="card-culture">
+        <img src="./images/toba.jpg" alt="" class="culture-img">
+        <div class="culture-caption">
+          <h1>Lake Toba</h1>
+          <small>Lake Toba is 100 kilometers long, 30 kilometers wide and 508 meters deep. The lake is located in the middle of the northern part of the island of Sumatra</small>
+          <a href="https://en.wikipedia.org/wiki/Lake_Toba">Learn more...</a>
+        </div>
+      </div>
+      <div class="card-culture">
+        <img src="./images/raja4.jpg" alt="" class="culture-img">
+        <div class="culture-caption">
+          <h1>Raja Ampat</h1>
+          <small>is an archipelago located off the northwest tip of Bird's Head Peninsula on the island of New Guinea, in Indonesia's Southwest Papua province.</small>
+          <a href="https://en.wikipedia.org/wiki/Lake_Toba">Learn more...</a>
+        </div>
+      </div>
+      <div class="card-culture">
+        <img src="./images/mandalika.jpg" alt="" class="culture-img">
+        <div class="culture-caption">
+          <h1>Mandalika</h1>
+          <small>The Mandalika International Circuit is a racing circuit located in the Mandalika Special Economic Zone in Central Lombok, West Nusa Tenggara.</small>
+          <a href="https://themandalikagp.com/home">Learn more...</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="swiper swiperCulture">
+    <div class="title-section">
+      <h1 class="fs-2">
+        Popular Hotel in
+        <span style="display: block">INDONESIA</span>
+      </h1>
+      <i class="desc">Explore Indonesia from Sabang to Merauke
+      </i>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </section>
+  <footer class="footer-distributed" id="contact">
+    <div class="footer-left">
+      <h3>Indonesia Tourism</span></h3>
+      <p class="footer-name">Wonderfull Indonesia © 2022</p>
+      <p class="footer-name">Created with <i class="bi bi-heart-fill"></i> by <a target="_blank"
+          href="https://instagram.com/angkrnia">Angga Kurnia</a>
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p>Contact Us</p>
+      <form action="#" method="get">
+        <input type="text" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button>Send</button>
+      </form>
+    </div>
+  </footer>
+  <!-- Swiper JS -->
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
