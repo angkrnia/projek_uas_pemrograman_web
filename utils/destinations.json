@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Tumpak Sewu Waterfall",
+        "caption": "Tumpak Sewu Waterfall is a tiered waterfall that is located between the Pronojiwo District, Lumajang Regency.",
+        "linkDetail": "https://en.wikipedia.org/wiki/Tumpak_Sewu_Waterfalls",
+        "image": "tumpaksewu.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Komodo Island",
+        "caption": "Komodo Island is an island located in the Nusa Tenggara Islands, which is separated by the Sape Strait.",
+        "linkDetail": "https://ich.unesco.org/en/USL/saman-dance-00509",
+        "image": "komodo_island.jpg"
+    },
+    {
+        "id": 3,
+        "title": "National Monument",
+        "caption": "National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta.",
+        "linkDetail": "https://en.wikipedia.org/wiki/National_Monument_(Indonesia)",
+        "image": "monas.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Waerebo Village",
+        "caption": "The traditional village of Wae Rebo in the district of Manggarai on the island of Flores, East Nusatenggara.",
+        "linkDetail": "https://en.wikivoyage.org/wiki/Wae_Rebo",
+        "image": "waerebo.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Jayawijaya Mountain",
+        "caption": "The Jayawiya Mountain is a mountain range east of Maoke in the central highlands region of the Indonesian.",
+        "linkDetail": "https://en.wikipedia.org/wiki/Jayawijaya_Mountains",
+        "image": "jayawijaya.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Lake Toba",
+        "caption": "Lake Toba is 100 kilometers long, 30 kilometers wide and 508 meters deep. The lake is located in the middle of the northern part of the island of Sumatra.",
+        "linkDetail": "https://en.wikipedia.org/wiki/Lake_Toba",
+        "image": "toba.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Raja Ampat",
+        "caption": "Is an archipelago located off the northwest tip of Bird's Head Peninsula on the island of New Guinea, in Indonesia's Southwest Papua province.",
+        "linkDetail": "https://en.wikipedia.org/wiki/Raja_Ampat_Islands",
+        "image": "raja4.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Mandalika",
+        "caption": "The Mandalika International Circuit is a racing circuit located in the Mandalika Special Economic Zone in Central Lombok, West Nusa Tenggara.",
+        "linkDetail": "https://themandalikagp.com/home",
+        "image": "mandalika.jpg"
+    }
+]
