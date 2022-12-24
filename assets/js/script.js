@@ -92,14 +92,14 @@ const swiperCulture = new Swiper('.swiperCulture', {
 // fetch data destination from utils/destination.json
 
 const fetchDestination = async () => {
-    const data = await fetch('/utils/destinations.json');
+    const data = await fetch(
+        'https://raw.githubusercontent.com/angkrnia/projek_uas_pemrograman_web/master/utils/destinations.json'
+    );
     return await data.json();
 };
 
 const place = document.getElementById('place');
 let destination = '';
-
-console.log(data);
 
 fetchDestination().then((response) => {
     response.forEach((data) => {
@@ -114,8 +114,7 @@ fetchDestination().then((response) => {
         </div>
       `;
     });
-
     setTimeout(() => {
         place.innerHTML = destination;
-    }, 2000);
+    }, 1500);
 });
