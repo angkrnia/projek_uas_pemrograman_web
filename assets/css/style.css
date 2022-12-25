@@ -159,6 +159,7 @@ body {
     color: var(--background);
     cursor: pointer;
     transition: ease-in 200ms;
+    text-decoration: none;
 }
 .btn:hover {
     transform: scale(1.1, 1.1);
