@@ -69,18 +69,18 @@ document.addEventListener('click', (e) => {
     }
 });
 
-// fetch data destination from utils/destination.json
-const fetchDestination = async () => {
-    const data = await fetch(
-        'https://raw.githubusercontent.com/angkrnia/projek_uas_pemrograman_web/master/utils/destinations.json'
-    );
+const fetchData = async (linkDestination) => {
+    const data = await fetch(linkDestination);
     return await data.json();
 };
 
-const place = document.getElementById('place');
-let destination = '';
+// fetch data destination from utils/destination.json
 
-fetchDestination().then((response) => {
+fetchData(
+    'https://raw.githubusercontent.com/angkrnia/projek_uas_pemrograman_web/master/utils/destinations.json'
+).then((response) => {
+    const place = document.getElementById('place');
+    let destination = '';
     response.forEach((data) => {
         destination += `
       <div class="card-place">
@@ -88,14 +88,12 @@ fetchDestination().then((response) => {
           <div class="place-caption">
             <h1>${data.title}</h1>
             <small>${data.caption}</small>
-            <a href="${data.linkDetail}">Learn more...</a>
+            <a href="${data.linkDetail}">Read more...</a>
           </div>
         </div>
       `;
     });
-    setTimeout(() => {
-        place.innerHTML = destination;
-    }, 1500);
+    place.innerHTML = destination;
 });
 
 new Swiper('.listHotel', {

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>List Hotel | Indonesia Tourism</title>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- Favicon image -->
+        <link
+            rel="shortcut icon"
+            href="https://upload.wikimedia.org/wikipedia/commons/c/cd/Logo_Pesona_Indonesia_%28Kementerian_Pariwisata%29.png"
+            type="image/x-icon"
+        />
+        <!-- Icon Bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css"
+        />
+    </head>
+    <body>
+        <!-- loader -->
+        <div class="loader">
+            <img src="./images/loader.gif" style="width: 150px" />
+        </div>
+        <!-- end loader -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo">
+                    <img
+                        class="logo-img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Logo_Pesona_Indonesia_%28Kementerian_Pariwisata%29.png"
+                        width="150"
+                        alt=""
+                    />
+                    <div id="menu" onclick="toggleMenu()">
+                        <i class="bi bi-list"></i>
+                    </div>
+                </div>
+                <ul class="nav-list">
+                    <li><a class="nav-item" href="index.html">Home</a></li>
+                    <li>
+                        <a class="nav-item" href="#destinations">See & Do</a>
+                    </li>
+                    <li><a class="nav-item" href="#places">Culture</a></li>
+                    <li><a class="nav-item" href="#hotels">Stay</a></li>
+                    <li>
+                        <a class="nav-item" href="booking.html"
+                            >Plan Your Trip</a
+                        >
+                    </li>
+                    <li><a class="nav-item" href="#contact">Contact US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="swiper">
+            <div class="welcome">
+                <h1>Pick Your Homestay</h1>
+                <a href="#explore" class="btn-explore">Plan Trip</a>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img
+                        class="img-baner"
+                        src="./images/baner-hotel.jpg"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </section>
+        <section id="hotels">
+            <div class="title-section">
+                <h1 class="fs-2">
+                    Choose Your <span style="display: block">HOTEL</span>
+                </h1>
+            </div>
+            <div class="row" id="listHotel">
+                <!-- here is content hotels load using javascript -->
+                <img style="width: 80px" src="./images/loading.gif" alt="" />
+                <p">Fetching data...</p>
+            </div>
+        </section>
+        <!-- Swiper JS -->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
