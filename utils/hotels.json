@@ -2,80 +2,71 @@
     {
         "id": 1,
         "name": "Amanwana",
-        "lcoation": "Bali",
-        "description": "",
+        "location": "Sumbawa",
         "rate": "1.2M",
         "image": "Amanwana.jpg"
     },
     {
         "id": 2,
         "name": "Ametis Villa",
-        "description": "",
+        "location": "Bali",
         "rate": "1M",
         "image": "Ametis Villa.jpg"
     },
     {
         "id": 3,
         "name": "Ayana Komodo Resort",
-        "lcoation": "Labuan Bajo",
-        "description": "",
+        "location": "Labuan Bajo",
         "rate": "1,5M",
         "image": "AYANA Komodo Resort.jpg"
     },
     {
         "id": 4,
         "name": "Banyan Tree Bintan",
-        "location": "",
-        "description": "",
-        "rate": "",
+        "location": "Bintan Island",
+        "rate": "900K",
         "image": "Banyan Tree Bintan.jpg"
     },
     {
         "id": 5,
         "name": "Four Seasons Resort Bali",
-        "location": "",
-        "description": "",
-        "rate": "",
+        "location": "Bali",
+        "rate": "1,2M",
         "image": "Four Seasons Resort Bali.jpg"
     },
     {
         "id": 6,
         "name": "Mulia Resort & Villas",
-        "location": "",
-        "description": "",
-        "rate": "",
+        "location": "Nusa Dua, Bali",
+        "rate": "800K",
         "image": "Mulia Resort & Villas.jpg"
     },
     {
         "id": 7,
         "name": "Nihi Sumba",
-        "location": "",
-        "description": "",
+        "location": "Sumba Island",
         "rate": "",
         "image": "Nihi Sumba.jpg"
     },
     {
         "id": 8,
         "name": "Raffles Jakarta",
-        "location": "",
-        "description": "",
-        "rate": "",
+        "location": "Jakarta",
+        "rate": "1M",
         "image": "Raffles Jakarta.jpg"
     },
     {
         "id": 9,
         "name": "The Langham Jakarta",
-        "location": "",
-        "description": "",
-        "rate": "",
+        "location": "Jakarta",
+        "rate": "900K",
         "image": "The Langham Jakarta.jpg"
     },
     {
         "id": 10,
         "name": "The Sanchaya",
-        "location": "",
-        "description": "",
-        "rate": "",
+        "location": "Riau",
+        "rate": "1,3M",
         "image": "The Sanchaya.jpg"
     }
 ]

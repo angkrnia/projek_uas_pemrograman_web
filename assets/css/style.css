@@ -350,6 +350,10 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
 }
+#hotels {
+    background-color: var(--slate);
+    padding: 20px 0;
+}
 
 .card {
     flex: 1 0 21%;
