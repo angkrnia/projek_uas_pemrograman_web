@@ -20,6 +20,7 @@
 body {
     background: var(--background);
     font-family: var(--myFont);
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -144,6 +145,37 @@ body {
     background-color: var(--slate);
 }
 
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+    color: var(--background);
+    cursor: pointer;
+    transition: ease-in 200ms;
+}
+.btn:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-secondary {
+    background-color: var(--slate);
+    color: var(--background);
+    outline: none;
+}
+.btn-white {
+    background-color: var(--background);
+    color: var(--slate);
+    outline: none;
+    font-weight: 600;
+}
+
 /* Start Media Query for Tablet*/
 @media screen and (max-width: 900px) {
     .container {
@@ -235,20 +267,35 @@ body {
     z-index: 9;
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: blue;
-}
-
 .swiper-slide .img-baner {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.swiper-hotel {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.slide-hotel {
+    border-radius: 10px;
+    min-height: 350px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--slate);
+}
+#hotel {
+    overflow-x: hidden;
 }
 
 /* WELCOME */
@@ -306,7 +353,7 @@ body {
 
 .card {
     flex: 1 0 21%;
-    height: 550px;
+    min-height: 530px;
     background-color: var(--slate);
     color: var(--background);
     border-radius: 10px;
@@ -336,6 +383,10 @@ body {
 }
 .link-white:hover {
     color: #dfd9d9;
+}
+
+a {
+    text-decoration: none;
 }
 
 .card-place {

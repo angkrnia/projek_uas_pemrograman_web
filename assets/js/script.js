@@ -69,28 +69,7 @@ document.addEventListener('click', (e) => {
     }
 });
 
-const swiperCulture = new Swiper('.swiperCulture', {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    // autoplay: {
-    //   delay: 3000,
-    //   disableOnInteraction: false,
-    // },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});
-
 // fetch data destination from utils/destination.json
-
 const fetchDestination = async () => {
     const data = await fetch(
         'https://raw.githubusercontent.com/angkrnia/projek_uas_pemrograman_web/master/utils/destinations.json'
@@ -105,7 +84,7 @@ fetchDestination().then((response) => {
     response.forEach((data) => {
         destination += `
       <div class="card-place">
-          <img src="./images/${data.image}" class="place-img">
+          <img src="./images/destinations/${data.image}" class="place-img">
           <div class="place-caption">
             <h1>${data.title}</h1>
             <small>${data.caption}</small>
@@ -117,4 +96,15 @@ fetchDestination().then((response) => {
     setTimeout(() => {
         place.innerHTML = destination;
     }, 1500);
+});
+
+new Swiper('.listHotel', {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+    },
 });
