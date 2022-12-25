@@ -1,9 +1,17 @@
 # PROJEK UAS PEMROGRAMAN WEB 1
+
 ## MEMBUAT WEBSITE INDONESIA TOURISM
+
 > NAMA : ANGGA KURNIA
-> 
+>
 > NIM : 201011401198
-> 
+>
 > KELAS : 05TPLE004
-*******************************
+
+---
+
 DIBUAT MENGGUNAKAN HTML, CSS, DAN JAVASCRIPT
+
+# Link Demo
+
+(Indonesia_Tourism)[https://anggakurnia.me/projek_uas_pemrograman_web/]
