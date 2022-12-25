@@ -358,6 +358,29 @@ body {
     background-color: var(--slate);
     padding: 20px 0;
 }
+#kebudayaan {
+    background-color: var(--slate);
+    color: var(--background);
+    padding: 10px 0;
+}
+.culture {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.culture-item {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.culture-item img {
+    max-width: 30%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
 
 .card {
     flex: 1 0 21%;
