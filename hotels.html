@@ -59,7 +59,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="hotels">
+	<section id="listdatahotel">
 		<div class="title-section">
 			<h1 class="fs-2 text-white">
 				Choose Your <span style="display: block">Home Stay</span>
@@ -108,12 +108,17 @@
 			let dataHotel = '';
 			response.forEach((data) => {
 				dataHotel += `
-						<div class="card-place" style="display:flex;align-items:center;flex-direction:column">
+						<div class="card-hotel">
 								<img src="./images/hotels/${data.image}" class="place-img">
 								<h3>${data.name}</h3>
 								<p>Hotel | ${data.location}</p>
+								<h3>Start IDR ${data.rate}</h3>
 								<div class="rate-hotel">
-									<h3>Start IDR ${data.rate}</h3>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-half"></i>
 									<button type="button" class="btn btn-secondary">Booked Now</button>
 								</div>
 							</div>

@@ -351,6 +351,10 @@ body {
     gap: 1rem;
 }
 #hotels {
+    background-color: var(--background);
+    padding: 20px 0;
+}
+#listdatahotel {
     background-color: var(--slate);
     padding: 20px 0;
 }
@@ -387,6 +391,21 @@ body {
 }
 .link-white:hover {
     color: #dfd9d9;
+}
+.card-hotel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--background);
+    border-radius: 8px;
+    width: 300px;
+    min-height: 350px;
+    color: var(--slate);
+    padding: 6px;
+    transition: 300ms all;
+    overflow: hidden;
+    box-shadow: 0px 2px 3px 0 rgba(255, 255, 255, 0.2);
 }
 
 a {

@@ -3,35 +3,35 @@
         "id": 1,
         "name": "Amanwana",
         "location": "Sumbawa",
-        "rate": "1.2M",
+        "rate": "3,2M",
         "image": "Amanwana.jpg"
     },
     {
         "id": 2,
         "name": "Ametis Villa",
         "location": "Bali",
-        "rate": "1M",
+        "rate": "5M",
         "image": "Ametis Villa.jpg"
     },
     {
         "id": 3,
         "name": "Ayana Komodo Resort",
         "location": "Labuan Bajo",
-        "rate": "1,5M",
+        "rate": "5,5M",
         "image": "AYANA Komodo Resort.jpg"
     },
     {
         "id": 4,
         "name": "Banyan Tree Bintan",
         "location": "Bintan Island",
-        "rate": "900K",
+        "rate": "3M",
         "image": "Banyan Tree Bintan.jpg"
     },
     {
         "id": 5,
         "name": "Four Seasons Resort Bali",
         "location": "Bali",
-        "rate": "1,2M",
+        "rate": "7,2M",
         "image": "Four Seasons Resort Bali.jpg"
     },
     {
@@ -45,28 +45,42 @@
         "id": 7,
         "name": "Nihi Sumba",
         "location": "Sumba Island",
-        "rate": "800K",
+        "rate": "4M",
         "image": "Nihi Sumba.jpg"
     },
     {
         "id": 8,
         "name": "Raffles Jakarta",
         "location": "Jakarta",
-        "rate": "1M",
+        "rate": "7,5M",
         "image": "Raffles Jakarta.jpg"
     },
     {
         "id": 9,
         "name": "The Langham Jakarta",
         "location": "Jakarta",
-        "rate": "900K",
+        "rate": "2,7M",
         "image": "The Langham Jakarta.jpg"
     },
     {
         "id": 10,
         "name": "The Sanchaya",
         "location": "Riau",
-        "rate": "1,3M",
+        "rate": "1,8M",
         "image": "The Sanchaya.jpg"
+    },
+    {
+        "id": 11,
+        "name": "The Oberoi Lombok",
+        "location": "Lombok",
+        "rate": "3,2M",
+        "image": "The Oberoi Lombok.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Misool Resort",
+        "location": "Raja Ampat",
+        "rate": "2,7M",
+        "image": "Misool Resort.jpg"
     }
 ]
