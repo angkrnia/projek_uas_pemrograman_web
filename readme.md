@@ -14,4 +14,4 @@ DIBUAT MENGGUNAKAN HTML, CSS, DAN JAVASCRIPT
 
 # Link Demo
 
-(Indonesia_Tourism)[https://anggakurnia.me/projek_uas_pemrograman_web/]
+[Indonesia_Tourism](https://anggakurnia.me/projek_uas_pemrograman_web/)
